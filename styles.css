@@ -1,3 +1,11 @@
 div.container h1 {
   text-align: center;
 }
+
+button {
+  border: none;
+}
+
+button:hover {
+  border: 2px solid pink;
+}
