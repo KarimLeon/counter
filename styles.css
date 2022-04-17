@@ -12,12 +12,15 @@ div.container h1 {
 
 section.btn {
   position: relative;
-  left: 400px;
+  left: 200px;
   top: 200px; 
 }
 
 button {
   border: none;
+  width: 200px;
+  padding: 20px;
+  cursor: pointer;
 }
 
 
