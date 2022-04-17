@@ -6,7 +6,7 @@ body {
   margin: auto auto;
   background: none;
   width: auto;
-  height: none;
+  height: auto;
 }
 
 section.btn {
@@ -32,20 +32,38 @@ span.action {
   }
 }
 
-@media screen and (min-height: 760px) and (max-height: 790px) {
+@media screen and (min-height: 760px) and (max-height: 789px) {
   section.btn {
     margin-top: 360px;
   }
 }
 
-@media screen and (min-height: 675px) and (max-height: 760px) {
+@media screen and (min-height: 675px) and (max-height: 759px) {
   section.btn {
     margin-top: 300px;
   }
 }
 
-@media screen and (min-height: 625px) and (max-height: 675px) {
+@media screen and (min-height: 625px) and (max-height: 674px) {
   section.btn {
     margin-top: 270px;
+  }
+}
+
+@media screen and (max-height: 624px) {
+  button {
+    padding: 10px;
+  }
+}
+
+@media screen and (min-height: 555px) and (max-height: 624px) {
+  section.btn {
+    margin-top: 260px;
+  }
+}
+
+@media screen and (min-height: 480px) and (max-height: 554px) {
+  section.btn {
+    margin-top: 220px;
   }
 }
