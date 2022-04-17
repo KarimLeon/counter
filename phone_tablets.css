@@ -6,9 +6,9 @@
 }
 
 section.btn {
+  position: static;
+  margin: auto auto;
   width: 200px;
-  top: 300px;
-  left: 80px;
 }
 
 button {
