@@ -26,7 +26,9 @@ span.action {
   font-size: large;
 }
 
-@media screen and (min-height: 790px) and (max-height: 896px) {
+/*Medias to move buttons to bottom of phone screens*/
+
+@media screen and (min-height: 790px) and (max-height: 926px) {
   section.btn {
     margin-top: 400px;
   }
