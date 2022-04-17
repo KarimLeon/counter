@@ -1,0 +1,14 @@
+.container {
+  margin: auto auto;
+  background: none;
+  width: auto;
+  height: none;
+}
+
+section.btn {
+  top: 700px;
+}
+
+button {
+  margin-top: 50px;
+}
