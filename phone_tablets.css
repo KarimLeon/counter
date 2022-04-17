@@ -1,3 +1,7 @@
+body {
+  background: url("nice2.jpg");
+}
+
 .container {
   margin: auto auto;
   background: none;
