@@ -1,0 +1,19 @@
+body {
+  background-image: url("tabletBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.container {
+  margin: auto auto;
+  background: none;
+  width: auto;
+  height: auto;
+}
+
+button {
+  display: block;
+  margin-top: 20px;
+  background-color: rgba(139, 142, 133, 0.3);
+}
