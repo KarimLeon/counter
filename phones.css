@@ -18,8 +18,7 @@ section.btn {
 button {
   display: block;
   margin-top: 20px;
-  background-color: grey;
-  opacity: 0.7;
+  background-color: rgba(139, 142, 133, 0.3);
 }
 
 span.action {
