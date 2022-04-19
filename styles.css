@@ -1,19 +1,28 @@
-.container {
-  margin: auto auto;
-  background: black;
-  width: 1000px;
-  height: 600px;
+body {
+  background-image: url("alone.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 
-div.container h1 {
+div.container h1,
+span {
   color: white;
   text-align: center;
 }
 
+.container {
+  margin: auto auto;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  width: 850px;
+  height: 600px;
+}
+
 section.btn {
   position: relative;
-  left: 200px;
-  top: 200px; 
+  left: 120px;
+  top: 340px;
 }
 
 button {
@@ -21,11 +30,9 @@ button {
   width: 200px;
   padding: 20px;
   cursor: pointer;
+  background-color: rgba(105, 148, 184, 0.5);
 }
 
-
-
-/*
 button:hover {
-  border: 2px solid pink;
+  background-color: white;
 }
