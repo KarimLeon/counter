@@ -7,12 +7,12 @@ counterDisplay.innerHTML = countVal
 
 Object.values(buttons).forEach(btn => {
    btn.onclick = () => { 
-         if (btn.className == "maq i") counterDisplay.innerHTML = countVal++;
-         if (btn.className == "maq r") {
+         if (btn.className == "maq i") counterDisplay.innerHTML = ++countVal;
+         else if (btn.className == "maq r") {
                 countVal = 0; 
                 counterDisplay.innerHTML = countVal;
          }
-         if (btn.className == "maq d") counterDisplay.innerHTML = countVal--;
+         else if (btn.className == "maq d") counterDisplay.innerHTML = --countVal;
    }
 })
 
