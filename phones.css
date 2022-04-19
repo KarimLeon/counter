@@ -21,6 +21,9 @@ button {
   background-color: rgba(139, 142, 133, 0.3);
 }
 
+button {
+  font-size: 1.2em;
+}
 /*Medias to move buttons to bottom of phone screens*/
 
 @media screen and (min-height: 790px) and (max-height: 936px) {
