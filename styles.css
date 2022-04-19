@@ -31,8 +31,10 @@ button {
   padding: 20px;
   cursor: pointer;
   background-color: rgba(105, 148, 184, 0.5);
+  color: white;
 }
 
 button:hover {
   background-color: white;
+  color: black;
 }
