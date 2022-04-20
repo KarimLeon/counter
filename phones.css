@@ -3,10 +3,13 @@ body {
 }
 
 .container {
-  margin: auto auto;
   background: none;
   width: auto;
   height: auto;
+}
+
+h1 > span {
+  font-size: 3.5em;
 }
 
 section.btn {
@@ -26,44 +29,53 @@ button {
 }
 /*Medias to move buttons to bottom of phone screens*/
 
-@media screen and (min-height: 790px) and (max-height: 936px) {
+@media screen and (min-height: 865px) and (max-height: 936px) {
   section.btn {
-    margin-top: 400px;
+    margin-top: 200px;
   }
 }
 
-@media screen and (min-height: 760px) and (max-height: 789px) {
+@media screen and (min-height: 795px) and (max-height: 864px) {
   section.btn {
-    margin-top: 360px;
+    margin-top: 150px;
   }
 }
 
-@media screen and (min-height: 675px) and (max-height: 759px) {
+@media screen and (min-height: 720px) and (max-height: 794px) {
   section.btn {
-    margin-top: 300px;
+    margin-top: 120px;
   }
 }
 
-@media screen and (min-height: 625px) and (max-height: 674px) {
+@media screen and (min-height: 635px) and (max-height: 719px) {
   section.btn {
-    margin-top: 270px;
+    margin-top: 70px;
   }
 }
 
-@media screen and (max-height: 624px) {
+@media screen and (min-height: 585px) and (max-height: 634px) {
+  section.btn {
+    margin-top: 110px;
+  }
+}
+
+@media screen and (min-height: 525px) and (max-height: 584px) {
+  section.btn {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (min-height: 480px) and (max-height: 524px) {
+  section.btn {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-height: 634px) {
+  h1 > span {
+    font-size: 1.5em;
+  }
   button {
     padding: 10px;
-  }
-}
-
-@media screen and (min-height: 555px) and (max-height: 624px) {
-  section.btn {
-    margin-top: 260px;
-  }
-}
-
-@media screen and (min-height: 480px) and (max-height: 554px) {
-  section.btn {
-    margin-top: 220px;
   }
 }

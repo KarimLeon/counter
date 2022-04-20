@@ -5,8 +5,7 @@ body {
   background-attachment: fixed;
 }
 
-div.container h1,
-span {
+h1 {
   color: white;
   text-align: center;
 }
